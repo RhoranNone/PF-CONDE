@@ -51,7 +51,11 @@ header{
     text-decoration: none;
     color: white;
     padding-left: 10px;
+}
 
+.logo-img{
+    width: 70px;
+    height: 70px;
 }
 
 .tab-nav{
@@ -243,6 +247,11 @@ header{
     font-family: 'Prompt', sans-serif;
 }
 
+.img-footer{
+    width: 20px;
+    height: 20px;
+}
+
 .destinos {
     margin: 20px;
     display: flex;
@@ -312,8 +321,8 @@ header{
 .form-text {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 15px;
-    padding: 50px;
-
+    padding: 40px;
+    
 }
 .mapa {
     width: 100%;
