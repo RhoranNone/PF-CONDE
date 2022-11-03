@@ -1,7 +1,7 @@
 {
   "name": "anubisviajesweb",
   "version": "1.0.0",
-  "description": "Pagina web de anubis viajes",
+  "description": "Anubis Viajes agencia turistica, viajes por argentina y el mundo",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,7 +14,11 @@
   },
   "keywords": [
     "anubisviajes",
-    "web"
+    "turismo",
+    "bariloche",
+    "tierradelfuego",
+    "salta",
+    "iguazu"
   ],
   "author": "Elias Conde",
   "license": "MIT",
