@@ -14,10 +14,12 @@ a, a:active {
 
 body{
 
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -182,7 +184,7 @@ header{
     font-family: 'Prompt', sans-serif;
     font-weight: 600 ;
     font-size: 100%;
-    padding: 20em;
+    padding: 10em;
     background-image: url("../img/test.jpg");
     background-repeat: no-repeat;
     width: 100%;
@@ -217,7 +219,7 @@ header{
     justify-content: center;
     font-family: 'Prompt', sans-serif;
     margin: 30px;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .recomendados {
@@ -225,13 +227,14 @@ header{
     text-align: center;
     justify-content: space-around;
     flex-wrap: wrap;
-
 }
 
 .recom {
     font-family: 'Prompt', sans-serif;
     border: 1px solid;
     background-color: #862725;
+    margin: 10px;
+    
 }
 
 .footer {
@@ -240,6 +243,7 @@ header{
     flex-direction: row;
     padding: 16px;
     width: 100%;
+    margin-top: auto;
 }
 
 .iconos-footer {
@@ -259,6 +263,11 @@ header{
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding: 10px;
+}
+
+.div-destino {
+    margin: 10px;
 }
 
 .texto-destino {
@@ -300,7 +309,7 @@ header{
     font-family: 'Prompt', sans-serif;
     font-size: 15px;
     text-align: center;
-    width: 400px;
+    width: 300px;
     border-top: 20px solid  #862725;
     align-items: center;
     display: flex;
@@ -309,7 +318,13 @@ header{
     margin: 15px;
 
 }
+.form-label {
 
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
 .form-titulo {
     font-family: 'Prompt', sans-serif;
     font-size: 30px;
