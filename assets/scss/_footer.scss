@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    background-color: $color-anubis;
+    flex-direction: row;
+    padding: 16px;
+    width: 100%;
+    margin-top: auto;
+    .iconos-footer {
+        color: white;
+        font-family: 'Prompt', sans-serif;
+        .img-footer {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}

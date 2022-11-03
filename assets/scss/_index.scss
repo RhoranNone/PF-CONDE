@@ -1,0 +1,37 @@
+.texto-bienvenida {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    font-size: 100%;
+    padding: 10em;
+    background-image: url("../img/test.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.inicio {
+    .titulo-recomendados {
+        text-align: center;
+        justify-content: center;
+        font-family: 'Prompt', sans-serif;
+        margin: 30px;
+        font-size: 35px;
+    }
+
+    .recomendados {
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .recom {
+            font-family: 'Prompt', sans-serif;
+            border: 1px solid;
+            background-color: $color-anubis;
+            margin: 10px;
+        }
+    }
+
+}

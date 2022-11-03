@@ -1,0 +1,22 @@
+.sobre-titulo {
+    font-family: 'Prompt', sans-serif;
+    font-size: 30px;
+    color: $color-anubis;
+    text-align: center;
+    align-items: center;
+}
+.sobre-nosotros {
+    display: flex;
+    flex-direction: column;
+    .sobre-text {
+        padding: 90px;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 18px;
+        text-align: center;
+    }
+    .sobre-img {
+        object-position: center;
+        height: 500px;
+    }
+    
+}

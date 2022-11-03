@@ -1,0 +1,43 @@
+.formulario{
+    .form-titulo {
+        font-family: 'Prompt', sans-serif;
+        font-size: 30px;
+        color: $color-anubis;
+        align-items: center;
+        text-align: center;
+    }
+    .formulario-2{
+        .form-ubi {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .mapa {
+                width: 100%;
+            }
+            .form-contacto {
+                border: 1px solid;
+                padding: 15px 30px;
+                font-family: 'Prompt', sans-serif;
+                font-size: 15px;
+                text-align: center;
+                width: 300px;
+                border-top: 20px solid $color-anubis;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 15px;
+                .form-label {
+                    align-items: center;
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+            .form-text {
+                font-family: 'Noto Sans JP', sans-serif;
+                font-size: 15px;
+                padding: 40px;
+            }
+        }
+    }
+}
